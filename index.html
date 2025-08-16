@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Screenshot App</title>
+  <style>
+    body { font-family: Arial; padding: 20px; }
+    img { max-width: 400px; margin-top: 20px; border: 1px solid #ccc; }
+    .controls { margin-bottom: 20px; }
+    label { display: block; margin-top: 10px; }
+  </style>
+</head>
+<body>
+  <h1>Electron Screenshot App</h1>
+
+  <div class="controls">
+    <label>Choose Monitor:</label>
+    <select id="monitorSelect"></select>
+
+    <label>Title:</label>
+    <input type="text" id="titleInput" placeholder="e.g., Meeting for Ticket 39323">
+
+    <label>Memo:</label>
+    <input type="text" id="memoInput" placeholder="e.g., Demonstration of application AAA">
+
+    <button id="captureBtn">Take Screenshot</button>
+  </div>
+
+  <div>
+    <h3>Last Screenshot:</h3>
+    <img id="thumbnail" src="" alt="No screenshot yet">
+  </div>
+
+  <script src="renderer.js"></script>
+</body>
+</html>

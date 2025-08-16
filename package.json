@@ -1,0 +1,23 @@
+{
+  "name": "electron-screenshot",
+  "version": "1.0.0",
+  "description": "Electron app to take monitor-specific screenshots with thumbnails and navigation",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/metamototomo/Electron-Screenshot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/metamototomo/Electron-Screenshot/issues"
+  },
+  "homepage": "https://github.com/metamototomo/Electron-Screenshot#readme",
+  "devDependencies": {
+    "electron": "^37.3.0"
+  }
+}
